@@ -1,11 +1,7 @@
 name: UI Testing
 
 on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - 'client/**'
+  push
 
 jobs:
   component_tests:
